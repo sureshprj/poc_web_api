@@ -1,0 +1,25 @@
+{
+  "name": "poc_web_api",
+  "version": "0.0.0",
+  "description": "Api server for web application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sureshprj/poc_web_api.git"
+  },
+  "author": "suresh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sureshprj/poc_web_api/issues"
+  },
+  "homepage": "https://github.com/sureshprj/poc_web_api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^8.5.1"
+  }
+}
